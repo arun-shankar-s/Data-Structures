@@ -42,7 +42,7 @@ while(front<=rear){
 
 printf("%d\t",que[front]);
 front=front+1;
-bfs(front);
+bfs(que[front]);
 
 }
 }
